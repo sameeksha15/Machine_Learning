@@ -1,5 +1,7 @@
 # Banking Scheme purchase prediction using Logistic Regression
 
+- ### Dataset
+
 |index|age|job|marital|education|default|balance|housing|loan|contact|day|month|duration|campaign|pdays|previous|poutcome|y|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |0|58|management|married|tertiary|no|2143|yes|no|unknown|5|may|261|1|-1|0|unknown|no|
