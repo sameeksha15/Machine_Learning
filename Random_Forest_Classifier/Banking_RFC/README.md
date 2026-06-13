@@ -1,11 +1,12 @@
-# Preddiction of purchase of Banking scheme using Random Forest Classifier
+# Banking Scheme Classification (Random Forest)
 
-- ### Dataset
+This project utilizes an ensemble learning method, the Random Forest Classifier, applied to banking demographic and functional data.
 
-|index|age|job|marital|education|default|balance|housing|loan|contact|day|month|duration|campaign|pdays|previous|poutcome|y|
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|0|58|management|married|tertiary|no|2143|yes|no|unknown|5|may|261|1|-1|0|unknown|no|
-|1|44|technician|single|secondary|no|29|yes|no|unknown|5|may|151|1|-1|0|unknown|no|
-|2|33|entrepreneur|married|secondary|no|2|yes|yes|unknown|5|may|76|1|-1|0|unknown|no|
-|3|47|blue-collar|married|unknown|no|1506|yes|no|unknown|5|may|92|1|-1|0|unknown|no|
-|4|33|unknown|single|unknown|no|1|no|no|unknown|5|may|198|1|-1|0|unknown|no|
+## Dataset
+The training dataset (`train.csv`) provides a variety of numerical and categorical variables regarding customers' interactions and profiles.
+
+## Objective
+To maximize prediction accuracy and handle complex, non-linear relationships within the banking dataset effectively.
+
+## Methodology
+The `Banking_RFC.ipynb` notebook explores the Random Forest application, focusing on decision tree aggregations, feature importance evaluation, preventing overfitting, and enhancing classification metrics compared to simpler models.

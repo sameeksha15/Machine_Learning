@@ -1,11 +1,12 @@
-# Banking Scheme purchase prediction using Logistic Regression
+# Banking Scheme Classification (Logistic Regression)
 
-- ### Dataset
+This project leverages Logistic Regression to solve a classification problem related to a banking scheme, such as term deposit subscription or customer churn.
 
-|index|age|job|marital|education|default|balance|housing|loan|contact|day|month|duration|campaign|pdays|previous|poutcome|y|
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|0|58|management|married|tertiary|no|2143|yes|no|unknown|5|may|261|1|-1|0|unknown|no|
-|1|44|technician|single|secondary|no|29|yes|no|unknown|5|may|151|1|-1|0|unknown|no|
-|2|33|entrepreneur|married|secondary|no|2|yes|yes|unknown|5|may|76|1|-1|0|unknown|no|
-|3|47|blue-collar|married|unknown|no|1506|yes|no|unknown|5|may|92|1|-1|0|unknown|no|
-|4|33|unknown|single|unknown|no|1|no|no|unknown|5|may|198|1|-1|0|unknown|no|
+## Dataset
+The training dataset (`train.csv`) incorporates various demographic, economic, and campaign-specific customer attributes.
+
+## Objective
+To build a probabilistic model capable of predicting the likelihood of a customer engaging with the specified banking scheme.
+
+## Methodology
+The notebook (`Banking_Scheme.ipynb`) covers comprehensive exploratory data analysis, handling of categorical and missing data, feature engineering, and training a Logistic Regression model. Model evaluation emphasizes accuracy, precision, and recall.
